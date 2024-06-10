@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/robotsix/Projects/UAV_ROS2/install/ros2_uav_parameters/include/**",
+        "/home/robotsix/Projects/TII/ros_ws/install/swarm_ros2_interfaces/include/**",
+        "/home/robotsix/Projects/TII/ros_ws/install/px4_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/robotsix/Projects/UAV_ROS2/src/ros2_uav_parameters/include/**",
+        "include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

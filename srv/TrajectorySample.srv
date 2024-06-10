@@ -1,0 +1,29 @@
+# Service definition for a trajectory request and its response.
+
+# Header for the message, containing a timestamp and coordinate frame information.
+# The coordinate frame of the request is the frame in which the trajectory will be provided.
+std_msgs/Header header
+
+# The initial time of the trajectory segment.
+float64 initial_time
+
+# The final time of the trajectory segment.
+float64 final_time
+
+# The time interval for sampling the trajectory.
+float64 sampling_time
+
+# Maximum derivative order to be provided.
+uint8 derivative
+
+---
+# Response part of the message containing the trajectory details.
+
+# Feedback on the request.
+ros2_uav_interfaces/TrajectoryFeedback feedback
+
+# The trajectory segment requested.
+trajectory_msgs/JointTrajectory trajectory
+
+# Indicates whether the trajectory is completed or not.
+bool completed

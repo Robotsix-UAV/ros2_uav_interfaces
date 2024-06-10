@@ -1,0 +1,14 @@
+# Service to register a client to a parameter server.
+
+# Client name.
+string client_name
+
+# True to register the client, false to unregister it.
+bool register_client
+
+---
+# Success of the registration.
+bool success
+
+# Error message.
+string message
