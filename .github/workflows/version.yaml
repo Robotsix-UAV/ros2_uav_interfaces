@@ -29,6 +29,9 @@ jobs:
         run: |
           SHORT_VERSION=$(echo ${{ steps.calculate_version.outputs.version-string }} | cut -d. -f1,2)
           sed -i "s/v[0-9]*\.[0-9]*/v$SHORT_VERSION/g" README.md
+      - name: Update package.xml version
+        run: |
+          sed -i "s/<version>.*<\/version>/<version>${{ steps.calculate_version.outputs.version-string }}<\/version>/" package.xml
       - name: Commit version update
         id: commit
         run: |
