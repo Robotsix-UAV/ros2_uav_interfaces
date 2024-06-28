@@ -15,4 +15,9 @@ rosidl_generate_interfaces(${PROJECT_NAME} ${INTERFACES}
   DEPENDENCIES std_msgs
 )
 
+ament_export_dependencies(
+  rosidl_default_generators
+  std_msgs
+)
+
 ament_package()
