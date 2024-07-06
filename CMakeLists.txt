@@ -6,18 +6,22 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
 endif()
 
 find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 # Glob all the interfaces
 file(GLOB_RECURSE INTERFACES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "msg/*.msg" "srv/*.srv")
 
 rosidl_generate_interfaces(${PROJECT_NAME} ${INTERFACES}
-  DEPENDENCIES std_msgs
+  DEPENDENCIES
+  std_msgs
+  geometry_msgs
 )
 
 ament_export_dependencies(
   rosidl_default_generators
   std_msgs
+  geometry_msgs
 )
 
 ament_package()
