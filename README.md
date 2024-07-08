@@ -1,5 +1,5 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Tests](https://github.com/Robotsix-UAV/ros2_uav_interfaces/actions/workflows/build_test.yaml/badge.svg?branch=main)](https://github.com/Robotsix-UAV/ros2_uav_interfaces/actions/workflows/build_test.yaml)
+[![Build](https://github.com/Robotsix-UAV/ros2_uav_interfaces/actions/workflows/build-test.yaml/badge.svg?branch=main)](https://github.com/Robotsix-UAV/ros2_uav_interfaces/actions/workflows/build-test.yaml)
 
 # ROS2 UAV Interfaces
 
