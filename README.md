@@ -5,7 +5,7 @@
 
 ## Documentation
 
-Documentation can be found at [ROS2 UAV Interfaces Documentation](https://robotsix-UAV.github.io/ros2_uav_interfaces/v0.3/dev/ros2_uav_interfaces/index.html).
+Documentation can be found at [ROS2 UAV Interfaces Documentation](https://robotsix-UAV.github.io/ros2_uav_interfaces/v0.4/dev/ros2_uav_interfaces/index.html).
 
 ## Support
 
