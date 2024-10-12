@@ -1,0 +1,8 @@
+TrajectoryFeedback
+==================
+This is a ROS message definition.
+
+**Source**
+
+.. literalinclude:: ../../../../../../src/ros2_uav_interfaces/msg/TrajectoryFeedback.msg
+

@@ -1,0 +1,8 @@
+TrajectoryPoint
+===============
+This is a ROS service definition.
+
+**Source**
+
+.. literalinclude:: ../../../../../../src/ros2_uav_interfaces/srv/TrajectoryPoint.srv
+

@@ -1,0 +1,8 @@
+Waypoint
+========
+This is a ROS message definition.
+
+**Source**
+
+.. literalinclude:: ../../../../../../src/ros2_uav_interfaces/msg/Waypoint.msg
+
