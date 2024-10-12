@@ -1,0 +1,16 @@
+# Service to request a user action.
+
+uint8 TAKE_OFF=0
+uint8 LAND=1
+uint8 LAND_HOME=2
+uint8 PIPELINE=3
+
+# Action to be taken.
+uint8 action
+# Pipeline name.
+string pipeline_name
+
+---
+
+# Success of the request.
+bool success
